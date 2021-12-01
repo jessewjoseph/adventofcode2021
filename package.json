@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jessewjoseph/adventofcode2021#readme",
   "dependencies": {
-    "fs": "^0.0.1-security"
+    "chai": "^4.3.4",
+    "fs": "^0.0.1-security",
+    "mocha": "^9.1.3"
   }
 }
