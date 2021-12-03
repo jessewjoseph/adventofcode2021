@@ -68,11 +68,5 @@ function mostCommon(arr, i){
 	return ans>0 ? 1: 0;
 }
 
-const data = ['00100','11110','10110','10111','10101','01111','00111','11100','10000','11001','00010','01010'];
-// const data2 = ['0','1']
-// console.log(mostCommon(data,2))
-//console.log(this.gamma() * this.epsilon())
-console.log(this.oxygen(data))
-console.log(this.co2(data))
-
+console.log(this.gamma() * this.epsilon())
 console.log(this.co2() * this.oxygen())
