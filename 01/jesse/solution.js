@@ -1,5 +1,5 @@
 const fs = require("fs");
-const inputArr = fs.readFileSync("01/data.txt", "utf-8").split("\n").map(x => parseInt(x));
+const inputArr = fs.readFileSync("./01/jesse/data.txt", "utf-8").split("\n").map(x => parseInt(x));
 
 module.exports.part1 = function(arr = inputArr){
 
